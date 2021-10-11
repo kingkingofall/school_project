@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    
+    <title>懿楦翻译</title>
+    
+    <link href="../static/css/bootstrap.css" rel="stylesheet" />
+	  <link href="../static/css/coming-sssoon.css" rel="stylesheet" />    
+    <link rel="icon" href="../static/images/pic2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../static/images/pic2.ico" type="image/x-icon"> 
+    <!--     Fonts     -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+
+  <div class="main" style="background-image: url('../static/images/restaurant.jpg')">
+
+<!--    Change the image source '/images/restaurant.jpg')" with your favourite image.     -->
+    
+  <div class="cover orange" data-color="orange"></div>
+     
+<!--   You can change the black color for the filter with those colors: blue, green, red, orange       Translate-->
+
+    <div class="container">
+        <h1 class="logo cursive">
+            Translate
+        </h1>
+<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
+        
+        <div class="content">
+            <div class="subscribe">
+                <h5 class="info-text">
+                  Please enter the text you want to translate on the left.
+                </h5>
+                
+                        <form  role="form" method="POST">
+                          <button type="submit" class="btn btn-warning btn-fill" style="margin-left: 515px;margin-bottom: 20px;">Translate</button><br>
+                            <textarea placeholder="please enter English text" name="scoure" id="text"class="form-control transparent textarea-style" maxlength="200"
+                            onkeyup="setLength(this,200,'wordsLength')">{% if message %}{{message}}{% endif %}</textarea>
+
+                            <span id="wordsLength" style="font-size: 12px;
+                            font-family: MicrosoftYaHei;
+                            position: absolute;
+                            right: 610px;
+                            bottom: 15px;color:#BDCADA">0/400</span>
+                            <script>
+                              function setLength(obj,maxlength,id){
+                                var num=obj.value.length;//获取文本框输入内容的长度
+                                var leng=id;//获取右下角显示的id
+                                if(num>400){
+                                    num=400;//如果文本框文字小于零则让它显示为零
+                              }
+                              document.getElementById(leng).innerHTML=num+"/400";
+                            //通过id获取到span标签在页面上的显示并对它的值进行拼接,就是把计算出来的结果+最大限制字数
+                          }
+
+                            </script>
+                            <textarea placeholder="翻译" class="form-control transparent" name="translation" 
+                            style="margin-left: 20px;" readonly="readonly">{% if message1 %}{{message1}}{% endif %}</textarea>
+                        </form>
+            </div>
+        </div>
+    </div>
+ </div>
+</audio>
+ <div class="footer">
+  <div class="container">
+         Hope you <i class="fa fa-heart heart"></i> my web.
+  </div>
+</div>
+
+</body>
+	
+</html>
