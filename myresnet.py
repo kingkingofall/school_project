@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from torchvision.models import resnet, resnet18
+
 
 class Residual(nn.Module):
     def __init__(self, inputs, outputs, useconv3=False, strides=1) -> None:
@@ -26,7 +26,7 @@ class Residual(nn.Module):
         Y += X
         return self.relu(Y)
 
-def block(inputs, outputs, nums, first=False):
+def Block(inputs, outputs, nums, first=False):
     net = []
 
     for i in range(nums):
@@ -43,10 +43,10 @@ if __name__=='__main__':
     b1 = nn.Sequential(nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3), 
                         nn.BatchNorm2d(64), nn.ReLU(),
                         nn.MaxPool2d(3, stride=2, padding=1))
-    l1 = nn.Sequential(*block(64, 64, 2, True))
-    l2 = nn.Sequential(*block(64, 128, 2))
-    l3 = nn.Sequential(*block(128, 256, 2))
-    l4 = nn.Sequential(*block(256, 512, 2))
+    l1 = nn.Sequential(*Block(64, 64, 2, True))
+    l2 = nn.Sequential(*Block(64, 128, 2))
+    l3 = nn.Sequential(*Block(128, 256, 2))
+    l4 = nn.Sequential(*Block(256, 512, 2))
 
     b2 = nn.Sequential(nn.AdaptiveAvgPool2d((1, 1)), nn.Flatten(),
                         nn.Linear(512, 1))
