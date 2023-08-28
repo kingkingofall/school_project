@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T03:35:42.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="_5IVUbYfogRNjuMQz2A8" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T03:47:52.879Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="HJwF5U03qxtgmLYgxjxy" version="21.6.9" type="github">
   <diagram name="第 1 页" id="MvIkl5d77OIRCcuYuzUP">
     <mxGraphModel dx="951" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -130,7 +130,7 @@
         <mxCell id="TQkfvPjBHZHxrUdorPia-41" value="$$(a).DDIM$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="180" y="610" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TQkfvPjBHZHxrUdorPia-42" value="$$(b).Skip-DDIM$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="TQkfvPjBHZHxrUdorPia-42" value="$$(b).SSS-DDIM$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="445" y="610" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TQkfvPjBHZHxrUdorPia-43" value="$$p(x_0|x_1)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
