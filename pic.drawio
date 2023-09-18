@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T14:38:01.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="rNN81i0P297QE4i3K1gG" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T14:41:02.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="CMFbA34OxCEUd7JAvWkt" version="21.7.5" type="github">
   <diagram name="第 1 页" id="fW1xwsHdG8FZBlG4aMgd">
-    <mxGraphModel dx="1165" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="803" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="gjD89I-qVATIRwchpggt-18" value="step 100" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="785" y="560" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gjD89I-qVATIRwchpggt-19" value="$$S^{2}-DIMs^{\dag}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="380" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
