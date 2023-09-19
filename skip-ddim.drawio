@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T06:36:56.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="KO7MMRHNylcRn3EEgfJy" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T07:56:24.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="A_TVqa90tDd7h5y-5T2b" version="21.7.5" type="github">
   <diagram name="第 1 页" id="MvIkl5d77OIRCcuYuzUP">
-    <mxGraphModel dx="1151" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="794" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,19 +127,19 @@
         <mxCell id="TQkfvPjBHZHxrUdorPia-42" value="$$(b).Symmetrically$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="440" y="592" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TQkfvPjBHZHxrUdorPia-43" value="$$q(x_0|x_1)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="TQkfvPjBHZHxrUdorPia-43" value="$$q(x_1|x_0)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="222" y="420" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TQkfvPjBHZHxrUdorPia-44" value="$$q(x_1|x_2)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="TQkfvPjBHZHxrUdorPia-44" value="$$q(x_2|x_1)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="131" y="420" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TQkfvPjBHZHxrUdorPia-46" value="$$q(x_0|x_2)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="TQkfvPjBHZHxrUdorPia-46" value="$$q(x_2|x_0)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="455" y="380" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TQkfvPjBHZHxrUdorPia-47" value="$$q(x_0|x_1)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="TQkfvPjBHZHxrUdorPia-47" value="$$q(x_1|x_0)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="502" y="420" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TQkfvPjBHZHxrUdorPia-48" value="$$q(x_1|x_2)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="TQkfvPjBHZHxrUdorPia-48" value="$$q(x_2|x_1)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="410" y="420" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TQkfvPjBHZHxrUdorPia-51" value="$$p(x_0|x_2)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -227,7 +227,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W7QErYWQf2r18Hi_zqKq-41" value="$$q(x_0|x_3)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="W7QErYWQf2r18Hi_zqKq-41" value="$$q(x_3|x_0)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="632" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W7QErYWQf2r18Hi_zqKq-44" value="$$x_3$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -266,7 +266,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W7QErYWQf2r18Hi_zqKq-51" value="$$q(x_0|x_4)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="W7QErYWQf2r18Hi_zqKq-51" value="$$q(x_4|x_1)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="622" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W7QErYWQf2r18Hi_zqKq-52" value="$$training$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
