@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T01:18:16.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="_1lB2IYyl4pg9teHIVsF" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T08:51:21.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="2T5-RMQT5afF8tqEY-zv" version="22.1.17" type="github">
   <diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Page-1">
-    <mxGraphModel dx="2032" dy="1859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="2503" dy="2119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -779,11 +779,11 @@
         <mxCell id="fK4CkYTe5xiVLHBZnpp_-37" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;$$p_\theta(z_{(t-1)}|z_{(t)},c)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#1A1A1A;" parent="1" vertex="1">
           <mxGeometry x="335.00000000000045" y="231.99999999999994" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fK4CkYTe5xiVLHBZnpp_-40" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;$$training$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-95" y="57" width="130" height="40" as="geometry" />
+        <mxCell id="fK4CkYTe5xiVLHBZnpp_-40" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;training&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="62" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fK4CkYTe5xiVLHBZnpp_-41" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;$$sampling$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="177" width="140" height="40" as="geometry" />
+        <mxCell id="fK4CkYTe5xiVLHBZnpp_-41" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;sampling&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-75" y="182" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
